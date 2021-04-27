@@ -1,0 +1,87 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: calibri; 
+}
+
+body{
+	background: #F5F5F5;
+}
+
+.container{
+	width: 100%;
+	height: auto;
+
+}
+
+.header{
+	width: 100%;
+	height: auto;
+}
+
+.header h1{
+	font-size: 45px;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.header h2{
+	font-size: 25px;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.recent-games{
+	width: 95%;
+	height: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.recent-games p{
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+
+}
+
+.mylichess{
+	font-family: Brush Script MT;
+	font-size: 25px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.mylichess a{
+	color:#6eadff;
+
+}
+
+.mylichess a:hover{
+	color:#f899ff;
+}
+
+
+.chess{
+	border:1px solid black;
+	background: #bfc7c7;
+	padding: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+@media only screen and (min-width: 900px) {
+	iframe{
+		width: 600px;
+		height: 397px;
+	}
+
+}
